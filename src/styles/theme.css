@@ -1,0 +1,17 @@
+/*! tema de cores */
+
+:root {
+  --boxshadow: #00000040;
+  --blue100: #002d32;
+  --blue200: #005A64;
+  --blue250: #005a6465;
+  --blue300: #2993CE;
+  --blue400: #73B1B2;
+  --gray: #4F4F4F;
+  --red: #C73939;
+  --yelow: #FFCE00;
+  --black: #000000;
+
+  --whith: #fff;
+  --red100: #4e0000;
+}

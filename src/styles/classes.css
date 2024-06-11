@@ -1,0 +1,28 @@
+.box-shadow {
+  box-shadow: 0px 4px 4px 0px var(--boxshadow);
+}
+
+.border-btn-blue {
+  border: 1px solid var(--blue400)
+}
+
+.border-bottom-blue {
+  border-bottom: 1px solid var(--blue200);
+}
+
+
+.aprovado {
+  color: var(--blue200);
+}
+.pendente {
+  color: var(--blue300);
+}
+.processando {
+  color: var(--yelow);
+}
+.cancelado {
+  color: var(--red);
+}
+.limited {
+  color: var(--red100);
+}
