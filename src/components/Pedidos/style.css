@@ -1,0 +1,53 @@
+.pedido-container {
+  width: 16.6%;
+  height: 24vh;
+
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+
+  background-color: var(--whith);
+}
+.title-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.title-btn .title {
+  font-size: 1.5rem;
+  color: var(--blue200);
+  font-weight: 400;
+}
+.title-btn button {
+  color: var(--blue400);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+
+.valores {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.valores .valores-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.valores-container p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.valores-manipulados {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.valores-manipulados span {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
