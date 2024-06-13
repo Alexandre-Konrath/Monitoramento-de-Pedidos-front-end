@@ -1,0 +1,51 @@
+.status {
+  width: 96%;
+  height: 20vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 40px;
+}
+
+.status-pedido {
+  width: 50%;
+  height: 100%;
+
+  border-radius: 10px;
+  background-color: var(--whith);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center
+}
+.dados-pedidos {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.status-pedido h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.dados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dados span {
+  font-size: 2rem;
+}
+.dados p {
+  font-size: 1.5rem;
+  margin: 15px;
+
+  color: var(--gray);
+}
